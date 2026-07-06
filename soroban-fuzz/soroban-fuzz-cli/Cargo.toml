@@ -1,0 +1,15 @@
+[package]
+name = "soroban-fuzz"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "CLI for soroban-fuzz: run property-based fuzzing campaigns against Soroban contract adapters and replay saved failures."
+
+[[bin]]
+name = "soroban-fuzz"
+path = "src/main.rs"
+
+[dependencies]
+soroban-fuzz-core = { path = "../soroban-fuzz-core" }
+serde_json = "1"

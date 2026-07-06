@@ -1,0 +1,10 @@
+[package]
+name = "token-contract-fuzz-example"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Example fuzz target: a simplified token contract (mint/transfer/burn) with an intentionally injected bug, demonstrating soroban-fuzz catching a broken total-supply invariant."
+
+[dependencies]
+soroban-fuzz-core = { path = "../../soroban-fuzz-core" }
+serde_json = "1"
