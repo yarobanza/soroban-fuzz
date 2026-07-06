@@ -40,7 +40,7 @@ an attacker) ever sees the contract.
 ## Quickstart
 
 ```bash
-git clone https://github.com/YOUR_ORG/soroban-fuzz
+git clone https://github.com/yarobanza/soroban-fuzz
 cd soroban-fuzz
 cargo run --release --bin fuzz_token -p token-contract-fuzz-example
 ```

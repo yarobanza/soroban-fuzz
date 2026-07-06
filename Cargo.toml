@@ -10,4 +10,4 @@ members = [
 version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/YOUR_ORG/soroban-fuzz"
+repository = "https://github.com/yarobanza/soroban-fuzz"
